@@ -1,6 +1,6 @@
 # DEncrypt
 
-* Görsel verilerinizi üçüncü kişilerin okumaması için şifrelemek amaçlı yazılmıştır.
+* Görsel verilerinizi üçüncü kişilerin görmemesi için şifrelemek amaçlı yazılmış uygulama.
 * Whatsapp ve Instagram gibi sosyal medya platformlarında, yakın çevrenize resim atarken kalitesinin düşmesini engeller.
 
 
@@ -59,3 +59,5 @@
 örneğin ["ZBK", "DC", "ZCC"] olan bir listeyi [230, 65 ,255]
 
 * Ve resim çözülür kullanıcıya sunulur.
+
+# Örenk Şifrelenmiş Resim.
