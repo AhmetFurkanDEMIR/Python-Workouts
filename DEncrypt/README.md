@@ -44,6 +44,8 @@
 
 * Daha sonra bu yeni listeyi bir dosyaya aktardım, dosyanın sonununa ise resmin yüksekliği, genişligi ve renk kanallarının sayısını verdim, en sonuna ise kullanıcının girdiği şifrenin SHA-256 ile hash lenmiş halini yazıp dosyayı kaydettim.
 
+* ÖNEMLİ : Resmin kalitesine göre şifreleme süresi uzayabilir.
+
 
 
 # Çözerken Ne Yaptık ?
