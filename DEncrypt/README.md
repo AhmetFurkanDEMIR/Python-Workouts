@@ -38,7 +38,9 @@
 * Resim üzerinde oynamak için resmi bir diziye aktarmamız gerek, bu dizi üç bouyutlu bir dizidir. Resim[yükseklik][genişlik][RGB_değerler] şeklinde.
 * Sonra bu RGB değerlere erişip her sayı bir harf olacak şeklinde dönüştürme yaptım. Yani;
 
-![Screenshot_2020-08-04_18-10-27](https://user-images.githubusercontent.com/54184905/89310864-f2252c80-d67d-11ea-93a9-63a370e59985.png) şeklinde.
+![Screenshot_2020-08-04_18-10-27](https://user-images.githubusercontent.com/54184905/89310864-f2252c80-d67d-11ea-93a9-63a370e59985.png) 
+
+şeklinde. (Bu sözlüğü kendinize özel hale getirebilirsiniz, harfler yerine alfanümerik olmayan karakterlerde kullabilirsiniz.)
 
 örneğin [230, 65, 255] olan bir listeyi ["ZBK", "DC", "ZCC"] şekline getirdim.
 
@@ -54,22 +56,22 @@
 
 * Uygulama kullanıcıdan şifre sorar, şifre doğru ise resim verimizin harflerle değiştirdiğimiz değerleri eski haline getiririz. Yani; 
 
+![Screenshot_2020-08-04_18-21-46](https://user-images.githubusercontent.com/54184905/89312046-71ffc680-d67f-11ea-9527-54e9e7da9536.png) 
 
-![Screenshot_2020-08-04_18-21-46](https://user-images.githubusercontent.com/54184905/89312046-71ffc680-d67f-11ea-9527-54e9e7da9536.png) şeklinde.
-
+şeklinde. (Şifrelerken kullandığınız sözlüğün tam tersini buraya yazmanız gerek.)
 
 örneğin ["ZBK", "DC", "ZCC"] olan bir listeyi [230, 65 ,255]
 
 * En son ise dosyadan çektiğimiz resmin yüksekliği, genişiliği ve renk kanlalları sayısı ile bir array oluşturduk, bu array in  içine dönüştürme yaptığımız değerleri aktardık. ve bu arrayi bir resimm haline getirdik. Bu resmi kullanıcıya sunduk.
 
 
-# Örenk Şifrelenmiş Resim
+# Örnek Şifrelenmiş Resim
 
 ![Screenshot_2020-08-04_18-27-36](https://user-images.githubusercontent.com/54184905/89312853-6fea3780-d680-11ea-91a3-0d94d978aeb9.png)
 
 ![Screenshot_2020-08-04_18-27-42](https://user-images.githubusercontent.com/54184905/89312856-7082ce00-d680-11ea-93a9-24c1906ce5d4.png)
 
 
-# Örenk Çözülmüş Resim
+# Örnek Çözülmüş Resim
 
 ![Screenshot_2020-08-04_18-28-56](https://user-images.githubusercontent.com/54184905/89312858-7082ce00-d680-11ea-8fda-9c8fce258da9.png)
