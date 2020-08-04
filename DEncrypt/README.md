@@ -60,7 +60,7 @@
 
 şeklinde. (Şifrelerken kullandığınız sözlüğün tam tersini buraya yazmanız gerek.)
 
-örneğin ["ZBK", "DC", "ZCC"] olan bir listeyi [230, 65 ,255]
+örneğin ["ZBK", "DC", "ZCC"] olan bir listeyi [230, 65 ,255] haline getirdim.
 
 * En son ise dosyadan çektiğimiz resmin yüksekliği, genişiliği ve renk kanlalları sayısı ile bir array oluşturduk, bu array in  içine dönüştürme yaptığımız değerleri aktardık. ve bu arrayi bir resimm haline getirdik. Bu resmi kullanıcıya sunduk.
 
