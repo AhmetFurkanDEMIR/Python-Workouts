@@ -33,4 +33,10 @@
 * Beyaz renk = [255,255,255] , Siyah = [0,0,0] , Pembe nin x. tonu = [191,0,95] gibi.
 * Resimlerin yükseklik ve genişlik değerleride vardır yani bir resim 500X600 olabilir
 * Resim üzerinde oynamak için resmi bir diziye aktarmamız gerek, bu dizi üç bouyutlu bir dizidir. Resim[yükseklik][genişlik][RGB_değerler] şeklinde.
-* Sonra bu RGB değerlere erişip her sayı bir harf olacak şeklinde dönüştürme yaptım. Yani;  
+* Sonra bu RGB değerlere erişip her sayı bir harf olacak şeklinde dönüştürme yaptım. Yani;
+
+![Screenshot_2020-08-04_18-10-27](https://user-images.githubusercontent.com/54184905/89310864-f2252c80-d67d-11ea-93a9-63a370e59985.png) şeklinde.
+
+örneğin [230, 65, 255] olan bir listeyi ["ZBK", "DC", "ZCC"] şekline getirdim.
+
+* Daha sonra bu yeni listeyi bir dosyaya aktardım, dosyanın sonununa ise resmin yüksekliği, genişligi ve renk kanallarının sayısını verdim, en sonuna ise kullanıcının girdiği şifrenin SHA-256 ile hash lenmiş halini yaıp dosyayı kaydettim.
