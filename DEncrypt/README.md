@@ -26,3 +26,11 @@
 * Resim tekrar eski haline getirilir(Çözülür) ve ekrana yansıtılır.
 
 # Şifrelerken Ne Yaptık ?
+
+![channelsrgb](https://user-images.githubusercontent.com/54184905/89309831-99a15f80-d67c-11ea-926f-fd3d5bed69a9.gif)
+
+* Resimler içersinde 3 adet eleman bulunan bir liste vardır, R G B şeklinde yani [kırmızı, yeşil, mavi] değer aralığını tutar.
+* Beyaz renk = [255,255,255] , Siyah = [0,0,0] , Pembe nin x. tonu = [191,0,95] gibi.
+* Resimlerin yükseklik ve genişlik değerleride vardır yani bir resim 500X600 olabilir
+* Resim üzerinde oynamak için resmi bir diziye aktarmamız gerek, bu dizi üç bouyutlu bir dizidir. Resim[yükseklik][genişlik][RGB_değerler] şeklinde.
+* Sonra bu RGB değerlere erişip her sayı bir harf olacak şeklinde dönüştürme yaptım. Yani;  
