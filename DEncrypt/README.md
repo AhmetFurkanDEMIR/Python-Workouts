@@ -51,3 +51,11 @@
 * Öncelikle dosyayı açıp split ile "-" şeklinde ayırma işlemi yaptık. Geriye dönen listenin ilk elemanı, resim verimizin harflerle değiştirdiğimiz değerleridir. Listenin ikinci elemanı ise şifrelenen resmimizin yükseklik, genişlik ve renk kanal sayısını tutmaktadır. son elemanı ise kullanıcının girdiği hash lenmiş şifredir.
 
 * Uygulama kullanıcıdan şifre sorar, şifre doğru ise resim verimizin harflerle değiştirdiğimiz değerleri eski haline getiririz. Yani; 
+
+
+![Screenshot_2020-08-04_18-21-46](https://user-images.githubusercontent.com/54184905/89312046-71ffc680-d67f-11ea-9527-54e9e7da9536.png) şeklinde.
+
+
+örneğin ["ZBK", "DC", "ZCC"] olan bir listeyi [230, 65 ,255]
+
+* Ve resim çözülür kullanıcıya sunulur.
