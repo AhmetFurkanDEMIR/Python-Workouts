@@ -35,7 +35,7 @@
 * Resimler içersinde 3 adet eleman bulunan bir liste vardır, R G B şeklinde yani [kırmızı, yeşil, mavi] değer aralığını tutar.
 * Beyaz renk = [255,255,255] , Siyah = [0,0,0] , Pembe nin x. tonu = [191,0,95] gibi.
 * Resimlerin yükseklik ve genişlik değerleride vardır yani bir resim 500X600 olabilir.
-* Resim üzerinde oynamak için resmi bir diziye aktarmamız gerek, bu dizi üç bouyutlu bir dizidir. Resim[yükseklik][genişlik][RGB_değerler] şeklinde.
+* Resim üzerinde oynamak için resmi bir diziye aktarmamız gerek, bu dizi üç bouyutlu bir dizidir. Resim[width][height][RGB] şeklinde.
 * Sonra bu RGB değerlere erişip her sayı bir harf olacak şeklinde dönüştürme yaptım. Yani;
 
 ![Screenshot_2020-08-04_18-10-27](https://user-images.githubusercontent.com/54184905/89310864-f2252c80-d67d-11ea-93a9-63a370e59985.png) 
