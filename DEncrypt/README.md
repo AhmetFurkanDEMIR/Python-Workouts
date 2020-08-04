@@ -60,4 +60,14 @@
 
 * Ve resim çözülür kullanıcıya sunulur.
 
-# Örenk Şifrelenmiş Resim.
+
+# Örenk Şifrelenmiş Resim
+
+![Screenshot_2020-08-04_18-27-36](https://user-images.githubusercontent.com/54184905/89312853-6fea3780-d680-11ea-91a3-0d94d978aeb9.png)
+
+![Screenshot_2020-08-04_18-27-42](https://user-images.githubusercontent.com/54184905/89312856-7082ce00-d680-11ea-93a9-24c1906ce5d4.png)
+
+
+# Örenk Çözülmüş Resim
+
+![Screenshot_2020-08-04_18-28-56](https://user-images.githubusercontent.com/54184905/89312858-7082ce00-d680-11ea-8fda-9c8fce258da9.png)
